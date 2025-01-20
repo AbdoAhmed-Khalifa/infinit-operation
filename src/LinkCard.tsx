@@ -1,5 +1,9 @@
-import { MdOutlineMail } from 'react-icons/md';
-import { FaXTwitter, FaLinkedinIn } from 'react-icons/fa6';
+import {
+  FaXTwitter,
+  FaLinkedinIn,
+  FaFacebook,
+  FaInstagram,
+} from 'react-icons/fa6';
 import * as motion from 'motion/react-client';
 
 export default function LinkCard() {
@@ -9,16 +13,25 @@ export default function LinkCard() {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         transition={{ type: 'spring', stiffness: 400, damping: 17 }}
-        href="mailto:io.sa127531@gmail.com"
+        href="https://www.facebook.com/Infinitoperation"
         target="_blank"
       >
-        <MdOutlineMail className="text-2xl text-white" />
+        <FaFacebook className="text-2xl text-white" />
       </motion.a>
       <motion.a
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         transition={{ type: 'spring', stiffness: 400, damping: 17 }}
-        href="https://x.com/GamaArabia"
+        href=" https://www.instagram.com/io_sa25"
+        target="_blank"
+      >
+        <FaInstagram className="text-2xl text-white" />
+      </motion.a>
+      <motion.a
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        transition={{ type: 'spring', stiffness: 400, damping: 17 }}
+        href="https://x.com/io_sa25"
         target="_blank"
       >
         <FaXTwitter className="text-2xl text-white" />
@@ -27,7 +40,7 @@ export default function LinkCard() {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         transition={{ type: 'spring', stiffness: 400, damping: 17 }}
-        href="https://www.linkedin.com/company/gama-alarabia/"
+        href="https://www.linkedin.com/in/iosa25"
         target="_blank"
       >
         <FaLinkedinIn className="text-2xl text-white" />
