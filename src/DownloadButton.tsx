@@ -1,4 +1,4 @@
-// import Profile from '/Gama-Alarabia-Profile.pdf';
+import Profile from '/Infinit-Operation.pdf';
 import * as motion from 'motion/react-client';
 import { CgProfile } from 'react-icons/cg';
 
@@ -8,7 +8,7 @@ export default function DownloadButton() {
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       transition={{ type: 'spring', stiffness: 400, damping: 17 }}
-      // href={Profile}
+      href={Profile}
       download="Gama Alarabia Profile.pdf"
       target="_blank"
       rel="noreferrer"

@@ -3,6 +3,7 @@ import {
   FaLinkedinIn,
   FaFacebook,
   FaInstagram,
+  FaTiktok,
 } from 'react-icons/fa6';
 import * as motion from 'motion/react-client';
 
@@ -35,6 +36,15 @@ export default function LinkCard() {
         target="_blank"
       >
         <FaXTwitter className="text-2xl text-white" />
+      </motion.a>
+      <motion.a
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        transition={{ type: 'spring', stiffness: 400, damping: 17 }}
+        href="https://www.tiktok.com/@infinitoperation"
+        target="_blank"
+      >
+        <FaTiktok className="text-2xl text-white" />
       </motion.a>
       <motion.a
         whileHover={{ scale: 1.1 }}

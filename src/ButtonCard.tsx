@@ -12,8 +12,8 @@ export default function ButtonCard() {
         <TbWorldWww className="absolute left-3 sm:top-3  text-2xl sm:text-4xl " />
         <span>Visit our website</span> <span>زور موقعنا</span>
       </Button>
-      <Button link="mailto:Info@io.sa">
-        <MdOutlineEmail className="absolute  left-3 sm:top-3 text-2xl sm:text-4xl " />
+      <Button link="mailto:info@io.sa">
+        <MdOutlineEmail className="absolute left-3 sm:top-3 text-2xl sm:text-4xl" />
         <span>Contact us</span> <span>تواصل معنا</span>
       </Button>
       <Button link="https://wa.me/+966555127531">
